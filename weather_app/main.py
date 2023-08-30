@@ -12,7 +12,6 @@ def main():
         _ = WeatherApp()
         weather = _.get_weather(args.city)
         report = _.weather_report(weather)
-        print(report)
     else:
         parser.print_help()
 
